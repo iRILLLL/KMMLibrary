@@ -33,17 +33,17 @@ kotlin {
         }
     }
 
-    cocoapods {
-        summary = "KMMBridgeKickStart sample"
-        homepage = "https://www.touchlab.co"
-        ios.deploymentTarget = "13.5"
-        extraSpecAttributes["libraries"] = "'c++', 'sqlite3'"
-
-        framework {
-            export(project(":analytics"))
-            isStatic = true
-        }
-    }
+//    cocoapods {
+//        summary = "KMMBridgeKickStart sample"
+//        homepage = "https://www.touchlab.co"
+//        ios.deploymentTarget = "13.5"
+//        extraSpecAttributes["libraries"] = "'c++', 'sqlite3'"
+//
+//        framework {
+//            export(project(":analytics"))
+//            isStatic = true
+//        }
+//    }
 }
 
 addGithubPackagesRepository()
